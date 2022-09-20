@@ -6,6 +6,7 @@ package com.cognizant.shapes;
  */
 public class Circle {
 	double calculateArea(int radius) {
+		System.out.print("The Area of the Circle is: ");
 		return 3.14*radius*radius;
 	}
 }

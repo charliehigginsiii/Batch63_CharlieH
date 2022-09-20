@@ -6,6 +6,7 @@ package com.cognizant.shapes;
  */
 public class Square {
 	double calculateArea(int sides) {
+		System.out.print("The Area of the Square is: ");
 		return sides*sides;
 	}
 }

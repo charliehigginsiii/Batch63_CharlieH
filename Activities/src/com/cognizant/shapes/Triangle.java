@@ -6,6 +6,7 @@ package com.cognizant.shapes;
  */
 public class Triangle {
 	double calculateArea(int sides) {
+		System.out.print("The Area of the Triangle is: ");
 		return 0.433*sides*sides;
 	}
 }
