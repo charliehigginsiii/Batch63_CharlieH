@@ -5,7 +5,7 @@ package com.cognizant.shapes;
  * @date   Sep 20, 2022
  */
 public class Circle {
-	double calculateArea(double radius) {
+	double calculateArea(int radius) {
 		return 3.14*radius*radius;
 	}
 }

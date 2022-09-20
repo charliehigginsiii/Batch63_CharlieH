@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 public class Shapes {
 	int numberOfSides=0;
-	double sideorradiuslength=0.0;
-	double calculateShapeArea(int numberofSides, double sideorradiuslength) {
+	int sideorradiuslength=0;
+	double calculateShapeArea(int numberofSides, int sideorradiuslength) {
 		double area=0.0;
 		if(numberofSides==1) {
 			area=new Circle().calculateArea(sideorradiuslength);
@@ -22,6 +22,6 @@ public class Shapes {
 		return area;
 	}
 	public static void main(String[]args) {
-		System.out.println("The Area of the Shape is"+new Shapes().calculateShapeArea(1,15));
+		System.out.println("The Area of the Shape is: "+new Shapes().calculateShapeArea(1,15));
 	}
 }

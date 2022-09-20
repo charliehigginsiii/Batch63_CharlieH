@@ -5,7 +5,7 @@ package com.cognizant.shapes;
  * @date   Sep 20, 2022
  */
 public class Triangle {
-	double calculateArea(double sides) {
+	double calculateArea(int sides) {
 		return 0.433*sides*sides;
 	}
 }
