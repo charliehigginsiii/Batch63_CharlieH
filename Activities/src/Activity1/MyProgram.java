@@ -1,4 +1,4 @@
-package Activity;
+package Activity1;
 /**
  * 
  * @author Charlie Higgins

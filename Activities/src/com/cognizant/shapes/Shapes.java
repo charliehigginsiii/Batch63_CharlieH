@@ -22,6 +22,6 @@ public class Shapes {
 		return area;
 	}
 	public static void main(String[]args) {
-		System.out.print(new Shapes().calculateShapeArea(1,15));
+		System.out.print(new Shapes().calculateShapeArea(3,12));
 	}
 }
