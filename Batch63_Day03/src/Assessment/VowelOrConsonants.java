@@ -1,4 +1,4 @@
-package Assignments;
+package Assessment;
 
 public class VowelOrConsonants {
 	public String vowelorconsonant(char a) {

@@ -1,4 +1,4 @@
-package Assignments;
+package Assessment;
 
 public class FindMaxofThree {
 	public int maxofThree(int a,int b, int c) {

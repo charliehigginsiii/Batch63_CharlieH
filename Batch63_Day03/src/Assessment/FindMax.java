@@ -1,4 +1,4 @@
-package Assignments;
+package Assessment;
 
 public class FindMax {
 	public int findMax(int a,int b) {

@@ -1,4 +1,4 @@
-package Assignments;
+package Assessment;
 
 public class PrintName {
 
