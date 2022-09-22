@@ -1,5 +1,9 @@
 package Operators;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class SumOfDigits {
 	public static void main(String[]args) {
 		int n,sum=0,r;

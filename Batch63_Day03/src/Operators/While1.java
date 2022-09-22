@@ -1,5 +1,9 @@
 package Operators;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class While1 {
 	public static void main(String[]args) {
 	int i=0;

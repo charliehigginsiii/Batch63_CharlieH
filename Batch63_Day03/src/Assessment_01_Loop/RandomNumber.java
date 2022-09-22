@@ -2,7 +2,11 @@ package Assessment_01_Loop;
 
 import java.util.Random;
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class RandomNumber {
 	public void guessingGame(String number) {
 		boolean again=true;

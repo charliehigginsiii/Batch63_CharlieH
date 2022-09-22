@@ -1,7 +1,11 @@
 package Assessment_01_Loop;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class EnterNumbers {
 	public void enteringNumbers(String number) {
 		boolean doagain=true;

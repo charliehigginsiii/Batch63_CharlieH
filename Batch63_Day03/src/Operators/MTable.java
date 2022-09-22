@@ -1,5 +1,9 @@
 package Operators;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class MTable {
 	public static void main(String[]args) {
 		int n=2;

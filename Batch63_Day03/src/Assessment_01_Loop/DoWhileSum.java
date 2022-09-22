@@ -1,7 +1,11 @@
 package Assessment_01_Loop;
 
 import java.util.Scanner;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class DoWhileSum {
 	public void getSum(int a,int b, char continueprogram) {
 		int sum=0;

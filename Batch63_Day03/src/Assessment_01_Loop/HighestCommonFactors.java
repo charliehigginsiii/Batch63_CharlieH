@@ -1,5 +1,9 @@
 package Assessment_01_Loop;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class HighestCommonFactors {
 	public int findHCF(int number1, int number2) {
 		int hcf=0;

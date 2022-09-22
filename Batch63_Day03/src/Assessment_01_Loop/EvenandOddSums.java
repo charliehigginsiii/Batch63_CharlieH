@@ -1,5 +1,9 @@
 package Assessment_01_Loop;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 22, 2022
+ */
 public class EvenandOddSums {
 	public void EvenOddSums(int num) {
 		int esum=0;
