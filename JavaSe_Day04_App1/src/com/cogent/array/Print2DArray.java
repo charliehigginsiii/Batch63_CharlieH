@@ -1,6 +1,7 @@
 package com.cogent.array;
 
 import java.util.Random;
+import java.util.Scanner;
 /**
  * 
  * @author Charlie Higgins
@@ -8,7 +9,11 @@ import java.util.Random;
  */
 public class Print2DArray {
 	public static void main(String[]args) {
-		int[][] twodarray=new int[2][3];
+		System.out.println("Enter number of rows: ");
+		int rows=new Scanner(System.in).nextInt();
+		System.out.println("Enter number of Columns: ");
+		int columns=new Scanner(System.in).nextInt();
+		int[][] twodarray=new int[rows][columns];
 		for(int i=0;i<twodarray.length;i++) {
 			for(int j=0;j<twodarray[i].length;j++) {
 				twodarray[i][j]=new Random().nextInt(10-1);
