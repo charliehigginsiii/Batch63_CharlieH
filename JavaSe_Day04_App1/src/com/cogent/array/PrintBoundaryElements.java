@@ -1,5 +1,9 @@
 package com.cogent.array;
-
+/**
+ * 
+ * @author Charlie Higgins
+ * @date   Sep 25, 2022
+ */
 public class PrintBoundaryElements {
 	public void getBoundryElements(int[][]arr){
 		for(int i=0;i<arr.length;i++) {
