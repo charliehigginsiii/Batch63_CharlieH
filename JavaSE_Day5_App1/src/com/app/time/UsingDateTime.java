@@ -34,7 +34,8 @@ public class UsingDateTime {
 		LocalDateTime datetime=LocalDateTime.now();
 		System.out.println(datetime.toString());
 		Year year=Year.now();
-		ZoneId id=ZoneId.of("Asia/Tokyo");
+		ZoneId id=ZoneId.of("Africa/Lagos");
+		//System.out.println(id.getAvailableZoneIds());
 		LocalDateTime ex1=LocalDateTime.now(id);
 		Period p=Period.ofDays(9);
 		System.out.println(ex1.toString());
