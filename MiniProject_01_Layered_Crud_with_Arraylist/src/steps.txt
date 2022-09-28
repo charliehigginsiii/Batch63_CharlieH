@@ -1,0 +1,34 @@
+1. Create Project
+2. Create required packages: 
+com.cogent.bean
+com.cogent.client
+com.cogent.controller
+com.cogent.repo
+com.cogent.service
+3.Create BookBean inside com.cogent.bean package and add below fields
+	private int bookId;
+	private String bookTitle;
+	private String bookAuthor;
+	private double price;
+4. Identify the functionality to be implemented then add them in repo layer
+	public interface BookRepo{
+		public void addBook(BookBean bookBean);
+		public void deleteBookById(int bookId);
+		public BookBean findBookById(int bookId);
+		public BookBean findBookByAuthor(String author);
+		public List<BookBean> findBookwithPriceRange(double minPrice, double max Price);
+		
+	}
+5. Create BookService with Same methods written inside BooDao
+	public interface BookService{
+		public void addBook(BookBean bookBean);
+		public void deleteBookById(int bookId);
+		public BookBean findBookById(int bookId);
+		public BookBean findBookByAuthor(String author);
+		public List<BookBean> findBookwithPriceRange(double minPrice, double max Price);
+	}
+6. Write Implementation class for BookService and Bookrepo
+	BookServiceImpl & BookRepo
+7. Create ArrayList in BookRepoImpl
+8. Call all repo layer methods from service 
+9. Write the Client Class
