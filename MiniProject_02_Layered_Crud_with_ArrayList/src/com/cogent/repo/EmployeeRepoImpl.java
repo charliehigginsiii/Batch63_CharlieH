@@ -45,12 +45,17 @@ public class EmployeeRepoImpl implements EmployeeRepo {
 	@Override
 	public EmployeeBean findTheYoungestEmployee() {
 		EmployeeBean youngest=null;
-		int min=Employees.get(0).getEmployeeAge();
-		for(int i=0;i<Employees.size();i++) {
-			if(Employees.get(i).getEmployeeAge()<min) {
-				min=Employees.get(i).getEmployeeAge();
-				youngest=Employees.get(i);
+		int min=0;
+		if(Employees.size()>0) {
+			min=Employees.get(0).getEmployeeAge();
+			for(int i=0;i<Employees.size();i++) {
+				if(Employees.get(i).getEmployeeAge()<min) {
+					min=Employees.get(i).getEmployeeAge();
+					youngest=Employees.get(i);
+				}
 			}
+		}else {
+			System.out.println("There are no employees");
 		}
 		return youngest;
 	}
