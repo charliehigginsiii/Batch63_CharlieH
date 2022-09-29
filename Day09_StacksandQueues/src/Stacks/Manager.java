@@ -73,7 +73,6 @@ class Stack{
 public class Manager {
 	public static void main(String[]args) {
 		Stack stackobj=new Stack();
-		Queue queueobj=new Queue();
 		System.out.println("Current Stack");
 		stackobj.push(5);
 		stackobj.push(2);
@@ -91,12 +90,6 @@ public class Manager {
 		}
 		System.out.println("Current Peek: ");
 		System.out.println(stackobj.peek());
-		System.out.println();
-		System.out.println();
-		queueobj.enqueue(5);
-		queueobj.enqueue(2);
-		for(int i=queueobj.queue.length-1;i>=0;i--) {
-			System.out.print(queueobj.queue[i]+" ");
-		}
+		
 	}
 }
