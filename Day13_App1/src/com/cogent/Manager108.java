@@ -8,7 +8,7 @@ import java.util.Properties;
 
 public class Manager108 {
 	public static void main(String[]args) {
-		File f=new File("C:\\Users\\Chuck\\eclipse-workspace\\Day13_App1\\src\\com\\cogent\\jdbc.properties");
+		File f=new File("C:\\Users\\Chuck\\git\\Batch63_CharlieH\\Day13_App1\\src\\com\\cogent\\jdbc.properties");
 		try {
 			FileInputStream fis=new FileInputStream(f);
 			Properties prop=new Properties();
