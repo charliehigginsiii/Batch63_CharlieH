@@ -10,7 +10,7 @@ public class StringMethods {
 		String q="";
 		System.out.println(s.charAt(1));
 		System.out.println(s.length());
-		System.out.println(s.format("Hello this is {}","Charlie"));
+		System.out.println(String.format("Hello this is %s","Charlie"));
 		System.out.println(s.substring(1));
 		System.out.println(s.substring(1,5));
 		System.out.println(s.contains("College"));
@@ -28,7 +28,7 @@ public class StringMethods {
 		System.out.println(s.indexOf("sity",5));
 		System.out.println(s.toLowerCase());
 		System.out.println(s.toUpperCase());
-		System.out.println(s1.trim());
+		System.out.println(s2.trim());
 		System.out.println(String.valueOf(15));
 		
 		
