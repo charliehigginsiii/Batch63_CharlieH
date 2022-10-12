@@ -23,7 +23,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 		database.deleteEmployee();
 		
 	}
-
 	@Override
 	public String findEmployeeById() {
 		String employee=database.findEmployeeById();

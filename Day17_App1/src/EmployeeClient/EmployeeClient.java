@@ -9,7 +9,7 @@ public class EmployeeClient {
 		EmployeeServiceImpl operations=new EmployeeServiceImpl();
 		boolean runprogram=true;
 		while(runprogram) {
-			System.out.println("Options: "
+			System.out.println("Options: "+"\n"
 					+ "Option 1: Insert"+"\n"
 					+ "Option 2: Update"+"\n"
 					+ "Option 3: Delete"+"\n"
