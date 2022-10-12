@@ -49,35 +49,35 @@ public class EmployeeRepoImpl implements EmployeeRepo{
 			System.out.println("Enter Number");
 			int option=new Scanner(System.in).nextInt();
 			if(option==1) {
-				PreparedStatement update=con.prepareStatement("update table emp set empName=? where empNo=?");
+				PreparedStatement update=con.prepareStatement("update emp set empName=? where empNo=?");
 				System.out.println("Enter new name: ");
 				update.setString(1, new Scanner(System.in).nextLine());
 				System.out.println("Enter the id of employee whose name you want to change: ");
-				update.setString(2, new Scanner(System.in).nextLine());
+				update.setInt(2, new Scanner(System.in).nextInt());
 				int i=update.executeUpdate();
 				System.out.println(i+" row has been updated");
 			}else if(option==2) {
-				PreparedStatement update=con.prepareStatement("update table emp set phone=? where empNo=?");
+				PreparedStatement update=con.prepareStatement("update emp set phone=? where empNo=?");
 				System.out.println("Enter new phone number: ");
 				update.setString(1, new Scanner(System.in).nextLine());
 				System.out.println("Enter the id of employee whose phone number you want to change: ");
-				update.setString(2, new Scanner(System.in).nextLine());
+				update.setInt(2, new Scanner(System.in).nextInt());
 				int i=update.executeUpdate();
 				System.out.println(i+" row has been updated");
 			}else if(option==3) {
-				PreparedStatement update=con.prepareStatement("update table emp set empEmail=? where empNo=?");
+				PreparedStatement update=con.prepareStatement("update emp set empEmail=? where empNo=?");
 				System.out.println("Enter new email: ");
 				update.setString(1, new Scanner(System.in).nextLine());
 				System.out.println("Enter the id of employee whose email you want to change: ");
-				update.setString(2, new Scanner(System.in).nextLine());
+				update.setInt(2, new Scanner(System.in).nextInt());
 				int i=update.executeUpdate();
 				System.out.println(i+" row has been updated");
 			}else if(option==4) {
-				PreparedStatement update=con.prepareStatement("update table emp set snn=? where empNo=?");
+				PreparedStatement update=con.prepareStatement("update emp set snn=? where empNo=?");
 				System.out.println("Enter new snn: ");
 				update.setString(1, new Scanner(System.in).nextLine());
 				System.out.println("Enter the id of employee whose snn you want to change: ");
-				update.setString(2, new Scanner(System.in).nextLine());
+				update.setInt(2, new Scanner(System.in).nextInt());
 				int i=update.executeUpdate();
 				System.out.println(i+" row has been updated");
 			}
