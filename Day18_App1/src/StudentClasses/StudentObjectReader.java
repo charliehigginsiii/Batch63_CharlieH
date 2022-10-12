@@ -14,7 +14,7 @@ public class StudentObjectReader {
 			int string=0;
 			FileInputStream fileinput=new FileInputStream(filepath.getFile());
 			while((string=fileinput.read())!=-1) {
-				System.out.print((char)string+" ");
+				System.out.print((char)string);
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

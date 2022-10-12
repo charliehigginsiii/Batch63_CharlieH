@@ -38,7 +38,7 @@ public class StudentObjectWriter {
 			FileOutputStream fileoutput=new FileOutputStream(filepath.getFile());
 			ObjectOutputStream writeObj=new ObjectOutputStream(fileoutput);
 			for(int i=0;i<students.size();i++) {
-				writeObj.writeObject(students.get(i));
+				writeObj.writeObject("Student[stNo= "+students.get(i).getStudentNumber()+", stName= "+students.get(i).getStudentName()+", stEmail= "+students.get(i).getStudentName()+"]\n");
 			}
 			System.out.println(students);
 		}catch(SQLException e) {
