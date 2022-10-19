@@ -1,4 +1,4 @@
-package com.cogent.streamapi;
+package com.cogent.streamapi1;
 
 import java.util.Random;
 import java.util.stream.Stream;
