@@ -13,10 +13,11 @@ public class JdbcExample1 {
 			String url="jdbc:mysql://localhost:3306/classicmodels?characterEncoding=utf8";
 			Connection con=DriverManager.getConnection(url,"Batch63User","Batch632022.");
 			Statement s=con.createStatement();
-			PreparedStatement psmt=con.prepareStatement("insert into student values(?,?,?)");
-			psmt.setInt(1, 108);
-			psmt.setString(2, "abc");
-			psmt.setString(3, "abc@gmail.com");
+			PreparedStatement psmt=con.prepareStatement("insert into student values(?,?,?,?)");
+			psmt.setInt(1, 109);
+			psmt.setString(2, "abcd");
+			psmt.setString(3, "abcd@gmail.com");
+			psmt.setString(4, "09876876");
 			int i=psmt.executeUpdate();
 			System.out.println(i+" Records are inserted");
 			ResultSet rs=s.executeQuery("select * from emp");
